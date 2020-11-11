@@ -18,7 +18,7 @@ export default function HomeScreen ({ navigation }) {
         <Parallax_image source={require('../../assets/Parallax/parallax_3.png')} speed={40000}></Parallax_image>
         <Parallax_image source={require('../../assets/Parallax/parallax_4.png')} speed={20000}></Parallax_image>
         <Parallax_image source={require('../../assets/Parallax/parallax_5.png')} speed={10000}></Parallax_image>
-        <GestureRecognizer style={page.view_reset} onSwipeUp={() => {navigation.navigate('Game')}}>
+        <GestureRecognizer style={page.view_reset} onSwipeUp={() => {navigation.navigate('Test')}}>
             <Text style={page.title}>Continue</Text>
             <Image source={require('../../assets/drag_up.png')} style={page.image}></Image>
         </GestureRecognizer> 
