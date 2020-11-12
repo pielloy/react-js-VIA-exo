@@ -77,7 +77,7 @@ class MyMapView extends React.Component {
     }
 
 
-    fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=57.516570, 25.330441&radius=1000000&type=restaurant&keyword=hesburger&key=Put_your_api_key_here')
+    fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=57.516570, 25.330441&radius=100000&type=restaurant&keyword=hesburger&key=Put your API key here')
       .then(response => response.json())
       .then(responseJson => {
         responseJson.results.forEach(element => {
