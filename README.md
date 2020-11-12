@@ -18,7 +18,7 @@
 
 ## Project screenshots
 
-![Windows environments](/images/Menu.jpg)
-![Windows environments](/images/Map.jpg)
-![Windows environments](/images/Map_with_pin_selected.jpg)
-![Windows environments](/images/MH_api.jpg)
+![Windows environments](/images/Menu.png)
+![Windows environments](/images/Map.png)
+![Windows environments](/images/Map_with_pin_selected.png)
+![Windows environments](/images/MH_api.png)
