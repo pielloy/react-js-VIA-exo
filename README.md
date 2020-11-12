@@ -9,8 +9,16 @@
 * Install react native using the command : `npm install -g react-native-cli`
 * Install expo using : `npm install --global expo-cli`
   * To create a new expo project : `expo init my-project`
-  
+
 ## How to launch the project
 
 * Install the dependencies with : `npm install`
+* Open Marker.js and replace `Put your API key here` with a google API key.
 * Launch the project with : `expo start`
+
+## Project screenshots
+
+![Windows environments](/images/Menu.jpg)
+![Windows environments](/images/Map.jpg)
+![Windows environments](/images/Map_with_pin_selected.jpg)
+![Windows environments](/images/MH_api.jpg)
